@@ -1,0 +1,8 @@
+# voice-to-claude - Dependencies
+rumps>=0.4.0
+sounddevice>=0.4.6
+numpy>=1.24.0
+pynput>=1.7.6
+pyperclip>=1.8.2
+pync>=2.0.3
+scipy>=1.11.0
