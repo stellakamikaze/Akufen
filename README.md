@@ -1,4 +1,4 @@
-# Voice-to-Claude
+# Akufen
 
 Menubar app for macOS that enables voice dictation with local Whisper transcription. Dictate text and have it automatically pasted into any application.
 
@@ -41,8 +41,8 @@ This is a ~3GB download and may take a while.
 ### 3. Clone and setup
 
 ```bash
-git clone https://github.com/stellakamikaze/voice-to-claude.git
-cd voice-to-claude
+git clone https://github.com/stellakamikaze/Akufen.git
+cd Akufen
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -62,7 +62,7 @@ source .venv/bin/activate
 python -m src.app
 ```
 
-A "V" icon will appear in your menubar.
+A "A" icon will appear in your menubar.
 
 ## Usage
 
@@ -74,7 +74,7 @@ A "V" icon will appear in your menubar.
 
 ## Launch at Login
 
-To start Voice-to-Claude automatically at login:
+To start Akufen automatically at login:
 
 ```bash
 cp scripts/com.voicetoclaude.plist ~/Library/LaunchAgents/
@@ -90,7 +90,7 @@ rm ~/Library/LaunchAgents/com.voicetoclaude.plist
 
 ## Files
 
-- **Logs**: `~/Library/Logs/voice-to-claude/app.log`
+- **Logs**: `~/Library/Logs/Akufen/app.log`
 - **Transcripts**: `~/Documents/voice-transcripts/`
 
 ## Troubleshooting

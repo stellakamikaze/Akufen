@@ -1,6 +1,8 @@
-# voice-to-claude
+# Akufen
 
-Menubar app macOS per dettatura vocale con trascrizione Whisper locale.
+App cross-platform per dettatura vocale con trascrizione Whisper locale.
+
+> **Stato**: macOS funzionante, Windows in sviluppo (issue Akufen-1rv)
 
 ## Stack
 
